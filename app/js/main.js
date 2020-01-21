@@ -10,5 +10,5 @@ for(let i = 0; i < links.length; i++) {
     }
   }
 
-  links[i].addEventListener('click', (testMessage));
+  links[i].addEventListener('click', testMessage);
 }
