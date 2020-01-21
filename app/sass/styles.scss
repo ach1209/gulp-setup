@@ -1,0 +1,33 @@
+@import './base/variables';
+@import './base/typography';
+
+@import './components/header';
+@import './components/content';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $mainFont;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: $mainFontColor;
+  background-color: $mainBgColor;
+}
+
+figure {
+  display: block;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 2px 2px rgba(0,0,0, 0.12);
+  background-color: $componentBg;
+}
+
+#top-nav {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.top-nav__item {
+  flex: 1;
+  display: inline-block;
+  width: 10rem;
+  text-align: center;
+  text-decoration: none;
+  line-height: 7.5rem;
+  transition: background-color ease-in 0.2s;
+  color: $linkColor;
+
+  &:hover {
+    background-color: $hoverBg;
+  }
+}

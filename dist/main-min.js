@@ -1,0 +1,1 @@
+let links=document.querySelectorAll(".top-nav__item");for(let e=0;e<links.length;e++){function testMessage(){e%2==0?document.querySelector("p").innerHTML="Test change for the output scripts file.":document.querySelector("p").nextSibling.nextSibling.innerHTML="Text change for the second paragraph tag."}links[e].addEventListener("click",testMessage)}
